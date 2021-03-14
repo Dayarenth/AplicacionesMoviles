@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">KuyuWalltay</string>
+    <string name="textViewNombre">Nombre</string>
+    <string name="textViewApellido">Apellido</string>
+    <string name="textViewEmail">Correo</string>
+    <string name="textViewContraseña">Contraseña</string>
+    <string name="textViewRepetirContraseña">Repetir Contraseña</string>
+    <string name="btnRegistrar">REGISTRARSE</string>
+    <string name="btnIngresar">INGRESAR</string>
 </resources>
