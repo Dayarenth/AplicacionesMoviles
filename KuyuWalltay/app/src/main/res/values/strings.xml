@@ -7,4 +7,6 @@
     <string name="textViewRepetirContraseña">Repetir Contraseña</string>
     <string name="btnRegistrar">REGISTRARSE</string>
     <string name="btnIngresar">INGRESAR</string>
+    <string name="editTextNombre">Ingrese su Nombre</string>
+    <string name="textViewNombreApp">KUYU WALLTAY</string>
 </resources>

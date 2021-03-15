@@ -27,11 +27,11 @@
         tools:ignore="VectorDrawableCompat" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewNombreApp"
         android:layout_width="180dp"
         android:layout_height="39dp"
         android:layout_marginTop="50dp"
-        android:text="KUYU WALLTAY"
+        android:text="@string/textViewNombreApp"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/imagen1"
         app:layout_constraintStart_toStartOf="@+id/imagen1"
@@ -47,7 +47,7 @@
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="@+id/imagen1"
         app:layout_constraintStart_toStartOf="@+id/imagen1"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNombreApp"
         android:drawableLeft="@drawable/ic_baseline_person_24"/>
 
     <EditText
