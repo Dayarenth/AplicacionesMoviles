@@ -8,9 +8,39 @@
     tools:context=".PrincipalActivity">
 
 
+    <ImageView
+        android:id="@+id/imagen3"
+        android:layout_width="69dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_palomitas_de_maiz"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="180dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/textViewNombreApp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toEndOf="@+id/imagen3"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="413dp"
+        android:layout_height="609dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,7 +50,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="340dp"
+                android:layout_height="304dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -31,17 +61,19 @@
 
                     <ImageButton
                         android:id="@+id/imageButton2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="285dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:background="#FFFFFF"
+                        android:scaleType="fitCenter"
                         app:srcCompat="@drawable/img2" />
 
                     <TextView
                         android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
                         android:text="TextView"
                         android:textColor="#F00721C3"
-                        android:gravity="center"
                         android:textSize="20dp" />
                 </LinearLayout>
 
@@ -54,17 +86,19 @@
                     <ImageButton
                         android:id="@+id/imageButton"
                         android:layout_width="wrap_content"
-                        android:layout_height="286dp"
-                        app:srcCompat="@drawable/img2" />
+                        android:layout_height="260dp"
+                        android:scaleType="fitCenter"
+                        android:background="#FFFFFF"
+                        app:srcCompat="@drawable/lasirenita" />
 
                     <TextView
                         android:id="@+id/textView"
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
-                        android:textColor="#F00721C3"
-                        android:textSize="20dp"
                         android:gravity="center"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textColor="#F00721C3"
+                        android:textSize="20dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -76,17 +110,19 @@
                     <ImageButton
                         android:id="@+id/imageButton3"
                         android:layout_width="wrap_content"
-                        android:layout_height="286dp"
-                        app:srcCompat="@drawable/img2" />
+                        android:layout_height="260dp"
+                        android:scaleType="fitCenter"
+                        android:background="#FFFFFF"
+                        app:srcCompat="@drawable/toystory" />
 
                     <TextView
                         android:id="@+id/textView3"
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
-                        android:textColor="#F00721C3"
-                        android:textSize="20dp"
                         android:gravity="center"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textColor="#F00721C3"
+                        android:textSize="20dp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -104,16 +140,18 @@
                     <ImageButton
                         android:id="@+id/imageButton4"
                         android:layout_width="wrap_content"
-                        android:layout_height="282dp"
-                        app:srcCompat="@drawable/img2" />
+                        android:layout_height="256dp"
+                        android:scaleType="fitCenter"
+                        android:background="#FFFFFF"
+                        app:srcCompat="@drawable/reyleon" />
 
                     <TextView
                         android:id="@+id/textView4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
                         android:text="TextView"
                         android:textColor="#F00721C3"
-                        android:gravity="center"
                         android:textSize="20dp" />
                 </LinearLayout>
 
@@ -126,17 +164,19 @@
                     <ImageButton
                         android:id="@+id/imageButton5"
                         android:layout_width="wrap_content"
-                        android:layout_height="283dp"
-                        app:srcCompat="@drawable/img2" />
+                        android:layout_height="256dp"
+                        android:scaleType="fitCenter"
+                        android:background="#FFFFFF"
+                        app:srcCompat="@drawable/labellaylabestia" />
 
                     <TextView
                         android:id="@+id/textView5"
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
-                        android:textColor="#F00721C3"
-                        android:textSize="20dp"
                         android:gravity="center"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textColor="#F00721C3"
+                        android:textSize="20dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -148,17 +188,19 @@
                     <ImageButton
                         android:id="@+id/imageButton6"
                         android:layout_width="wrap_content"
-                        android:layout_height="282dp"
-                        app:srcCompat="@drawable/img2" />
+                        android:layout_height="256dp"
+                        android:scaleType="fitCenter"
+                        android:background="#FFFFFF"
+                        app:srcCompat="@drawable/turbo" />
 
                     <TextView
                         android:id="@+id/textView6"
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
-                        android:textColor="#F00721C3"
-                        android:textSize="20dp"
                         android:gravity="center"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textColor="#F00721C3"
+                        android:textSize="20dp" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

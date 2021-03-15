@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scaleX="@android:dimen/app_icon_size"
     tools:context=".PrincipalActivity">
 
     <TextView
@@ -11,8 +12,9 @@
         android:layout_width="180dp"
         android:layout_height="39dp"
         android:layout_marginTop="40dp"
-        android:text="@string/textViewNombreApp"
         android:gravity="center"
+        android:text="@string/textViewNombreApp"
+        android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.134"
@@ -30,5 +32,129 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_palomitas_de_maiz"
         tools:ignore="VectorDrawableCompat" />
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="523dp"
+        android:layout_marginTop="44dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewAccionPelicula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewAccionPelicula"
+                android:textColor="#E91E63" />
+
+            <Button
+                android:id="@+id/buttonVerMas"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FFFFFF"
+                android:gravity="right"
+                android:text="@string/textViewVerMas"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="102dp"
+                    android:layout_height="184dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/img5" />
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="112dp"
+                    android:layout_height="183dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/img1" />
+
+                <ImageButton
+                    android:id="@+id/imageButton9"
+                    android:layout_width="100dp"
+                    android:layout_height="183dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/img3" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="234dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewAnimadasPeliculas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#E91E63"
+                tools:text="@string/textViewAnimadaPeliculas" />
+
+            <Button
+                android:id="@+id/buttonVerMas1"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FFFFFF"
+                android:gravity="right"
+                android:text="@string/textViewVerMas"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton10"
+                    android:layout_width="108dp"
+                    android:layout_height="184dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/img2" />
+
+                <ImageButton
+                    android:id="@+id/imageButton11"
+                    android:layout_width="115dp"
+                    android:layout_height="177dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/lasirenita" />
+
+                <ImageButton
+                    android:id="@+id/imageButton12"
+                    android:layout_width="100dp"
+                    android:layout_height="177dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/toystory" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

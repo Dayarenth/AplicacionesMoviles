@@ -32,6 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:gravity="center"
+            android:textColor="#034075"
             android:text="Nombre Pelicula"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -45,7 +46,7 @@
                 android:layout_width="140dp"
                 android:layout_height="match_parent"
                 android:drawableLeft="@drawable/ic_baseline_monetization_on_24"
-                android:text="Precio"
+                android:text="Valor de Entrada"
                 android:gravity="center"
                 android:textColor="?colorPrimary"
                 android:textStyle="bold" />
