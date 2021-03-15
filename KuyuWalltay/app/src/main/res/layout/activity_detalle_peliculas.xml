@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detallePeliculasActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="330dp"
+        android:layout_height="612dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="347dp"
+            app:srcCompat="@drawable/img2" />
+
+        <TextView
+            android:id="@+id/peliserie_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Nombre Pelicula"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/anyo_peliculaserie"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_baseline_monetization_on_24"
+                android:text="Precio"
+                android:textColor="?colorPrimary"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+                android:text="Precio" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tag_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="DESCRIPCIÓN"
+            android:textColor="?colorPrimary" />
+
+        <TextView
+            android:id="@+id/detail_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat ornare nulla a ultrices. Nam accumsan gravida dui ut ornare. Aliquam ultricies dapibus lacus. Suspendisse in justo sed diam suscipit pellentesque tristique non metus. Fusce sit amet dignissim lorem. Etiam vel quam nec nisl viverra placerat. Nam quam est, iaculis." />
+
+        <RatingBar
+            android:id="@+id/detail_rating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:isIndicator="true"
+            android:paddingTop="8dp"
+            android:progressTint="#FDDB39"
+            android:rating="3"
+            android:secondaryProgressTint="#FDDB39" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/buttonHome"
+        android:layout_width="81dp"
+        android:layout_height="58dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/ic_baseline_home_24"
+        tools:ignore="VectorDrawableCompat" />
+</androidx.constraintlayout.widget.ConstraintLayout>
