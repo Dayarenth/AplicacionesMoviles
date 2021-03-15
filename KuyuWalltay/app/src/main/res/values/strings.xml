@@ -12,4 +12,11 @@
     <string name="textViewAccionPelicula">Peliculas de Accion</string>
     <string name="textViewVerMas">Ver más...</string>
     <string name="textViewAnimadaPeliculas">Peliculas Animadas</string>
+    <string name="textView2">Pokemon La Pelicula</string>
+    <string name="textView">La Sirenita</string>
+    <string name="textView3">Toy Story I</string>
+    <string name="textView4">El Rey Leon</string>
+    <string name="textView5">La Bella y La Bestia</string>
+    <string name="textView6">Turbo</string>
+    <string name="btnActualizarReg">ACTUALIZAR</string>
 </resources>

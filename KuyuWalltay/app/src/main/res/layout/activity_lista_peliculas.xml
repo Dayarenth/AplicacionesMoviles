@@ -72,9 +72,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="TextView"
+                        android:text="@string/textView2"
                         android:textColor="#F00721C3"
-                        android:textSize="20dp" />
+                        android:textSize="18sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -96,9 +96,9 @@
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="TextView"
+                        android:text="@string/textView"
                         android:textColor="#F00721C3"
-                        android:textSize="20dp" />
+                        android:textSize="18sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -120,9 +120,9 @@
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="TextView"
+                        android:text="@string/textView3"
                         android:textColor="#F00721C3"
-                        android:textSize="20dp" />
+                        android:textSize="18sp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -150,9 +150,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="TextView"
+                        android:text="@string/textView4"
                         android:textColor="#F00721C3"
-                        android:textSize="20dp" />
+                        android:textSize="18sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -174,9 +174,9 @@
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="TextView"
+                        android:text="@string/textView5"
                         android:textColor="#F00721C3"
-                        android:textSize="20dp" />
+                        android:textSize="18sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -198,9 +198,9 @@
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="TextView"
+                        android:text="@string/textView6"
                         android:textColor="#F00721C3"
-                        android:textSize="20dp" />
+                        android:textSize="18sp" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
