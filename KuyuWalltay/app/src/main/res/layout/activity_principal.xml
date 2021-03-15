@@ -12,6 +12,7 @@
         android:layout_height="39dp"
         android:layout_marginTop="40dp"
         android:text="@string/textViewNombreApp"
+        android:gravity="center"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.134"
