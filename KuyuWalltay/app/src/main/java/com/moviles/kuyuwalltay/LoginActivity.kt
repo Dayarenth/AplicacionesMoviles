@@ -20,7 +20,7 @@ class LoginActivity : AppCompatActivity() {
 
         var bt_ingresar = findViewById<Button>(R.id.btnIngresar)
         bt_ingresar.setOnClickListener {
-            var intent = Intent(this,activity_listaPeliculas::class.java)
+            var intent = Intent(this,HomeActivity::class.java)
             intent.putExtra("MENSAJE", "Hacia lista")
             startActivity(intent)
         }

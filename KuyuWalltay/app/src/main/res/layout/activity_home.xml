@@ -40,7 +40,7 @@
 
 
         <Button
-            android:id="@+id/buttonPaseo"
+            android:id="@+id/buttonListPeliculas"
             android:layout_width="176dp"
             android:layout_height="160dp"
             android:layout_marginStart="16dp"
@@ -59,11 +59,11 @@
             android:background="@drawable/ic_cine"
             android:onClick="onClickButtonCines"
             android:scaleType="fitCenter"
-            app:layout_constraintBottom_toBottomOf="@+id/buttonPaseo"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonListPeliculas"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.465"
-            app:layout_constraintStart_toEndOf="@+id/buttonPaseo"
-            app:layout_constraintTop_toTopOf="@+id/buttonPaseo"
+            app:layout_constraintStart_toEndOf="@+id/buttonListPeliculas"
+            app:layout_constraintTop_toTopOf="@+id/buttonListPeliculas"
             app:layout_constraintVertical_bias="1.0"
             tools:ignore="OnClick" />
 
@@ -78,7 +78,7 @@
             app:layout_constraintBottom_toTopOf="@+id/imageButtonPerfilUser"
             app:layout_constraintEnd_toEndOf="@+id/buttonBaño"
             app:layout_constraintHorizontal_bias="0.518"
-            app:layout_constraintStart_toStartOf="@+id/buttonPaseo" />
+            app:layout_constraintStart_toStartOf="@+id/buttonListPeliculas" />
 
         <TextView
             android:id="@+id/textViewPeliculas"
@@ -90,10 +90,10 @@
             android:textAlignment="center"
             android:textColor="?android:attr/colorForeground"
             android:textSize="18sp"
-            app:layout_constraintBottom_toTopOf="@+id/buttonPaseo"
-            app:layout_constraintEnd_toEndOf="@+id/buttonPaseo"
+            app:layout_constraintBottom_toTopOf="@+id/buttonListPeliculas"
+            app:layout_constraintEnd_toEndOf="@+id/buttonListPeliculas"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/buttonPaseo" />
+            app:layout_constraintStart_toStartOf="@+id/buttonListPeliculas" />
 
         <TextView
             android:id="@+id/textViewCines"
