@@ -1,4 +1,5 @@
-package com.herprogramacion.movielife.utilities;
+package com.moviles.kuyuwalltay
+
 import android.content.Context;
 import android.graphics.Color;
 import android.preference.Preference;
