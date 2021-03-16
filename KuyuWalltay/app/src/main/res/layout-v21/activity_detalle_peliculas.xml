@@ -32,9 +32,9 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:gravity="center"
-            android:textColor="#034075"
-            android:text="Nombre Pelicula"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:text="@string/textViewNombrePelicula"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#034075" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                 android:layout_weight="2"
                 android:drawableLeft="@drawable/ic_baseline_attach_money_24"
                 android:gravity="center"
-                android:text="Precio" />
+                android:text="@string/textViewPrecioPelicula" />
         </LinearLayout>
 
         <TextView
@@ -72,8 +72,8 @@
         <TextView
             android:id="@+id/textViewDescripcionPelicula"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat ornare nulla a ultrices. Nam accumsan gravida dui ut ornare. Aliquam ultricies dapibus lacus. Suspendisse in justo sed diam suscipit pellentesque tristique non metus. Fusce sit amet dignissim lorem. Etiam vel quam nec nisl viverra placerat. Nam quam est, iaculis." />
+            android:layout_height="70dp"
+            android:text="@string/textViewDescripcionPelicula" />
 
         <RatingBar
             android:id="@+id/detail_rating"
