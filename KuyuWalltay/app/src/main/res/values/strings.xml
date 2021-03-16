@@ -30,4 +30,7 @@
     <string name="textViewDescripcion">DESCRIPCION</string>
     <string name="textViewIdUsuario">IdUsuario</string>
     <string name="title_activity_maps">Map</string>
+    <string name="textViewDirCinemark">Avenida de las Américas y Avenida Naciones Unidas. Plaza Las Américas</string>
+    <string name="textViewDirMulticines">"Avenida Amazonas y Naciones Unidas. Centro Comecial Iñaquito "</string>
+    <string name="textViewDirSuperCines">Av. 6 de Diciembre y German Aleman</string>
 </resources>

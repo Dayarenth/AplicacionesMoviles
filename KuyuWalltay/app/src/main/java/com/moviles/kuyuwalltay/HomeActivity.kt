@@ -13,7 +13,7 @@ class HomeActivity : AppCompatActivity() {
     }
 
     fun onClickButtonPeliculas(view: View) {
-        var intent = Intent(this,PrincipalActivity::class.java)
+        var intent = Intent(this,MenuPelisActivity::class.java)
         intent.putExtra("MENSAJE", "Hacia MenuPeliculas")
         startActivity(intent)
     }

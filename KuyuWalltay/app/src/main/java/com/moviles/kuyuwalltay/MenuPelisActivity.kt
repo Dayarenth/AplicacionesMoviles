@@ -4,12 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.google.firebase.firestore.FirebaseFirestore
 
-class PrincipalActivity : AppCompatActivity() {
+class MenuPelisActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_principal)
+        setContentView(R.layout.activity_menu_pelis)
     }
 
     fun onClickButtonVerMasAccion(view: View) {

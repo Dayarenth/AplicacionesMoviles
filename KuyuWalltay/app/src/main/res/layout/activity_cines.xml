@@ -69,10 +69,10 @@
                     android:textColor="?colorPrimary" />
 
                 <TextView
-                    android:id="@+id/textView12"
+                    android:id="@+id/textViewDirCinemark"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="@string/textViewDirCinemark" />
             </LinearLayout>
         </LinearLayout>
 
@@ -136,10 +136,10 @@
                     android:textColor="?colorPrimary" />
 
                 <TextView
-                    android:id="@+id/textViewDescription2"
+                    android:id="@+id/textViewDirMulticines"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="@string/textViewDirMulticines" />
             </LinearLayout>
         </LinearLayout>
 
@@ -203,10 +203,10 @@
                     android:textColor="?colorPrimary" />
 
                 <TextView
-                    android:id="@+id/textViewDescription3"
+                    android:id="@+id/textViewDirSuperCines"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="@string/textViewDirSuperCines" />
             </LinearLayout>
         </LinearLayout>
 
