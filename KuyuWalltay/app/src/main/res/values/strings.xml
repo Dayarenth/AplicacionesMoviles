@@ -19,4 +19,7 @@
     <string name="textView5">La Bella y La Bestia</string>
     <string name="textView6">Turbo</string>
     <string name="btnActualizarReg">ACTUALIZAR</string>
+    <string name="textViewNombreCinemark">Cinemark</string>
+    <string name="textViewNombreMulticines">Multicines</string>
+    <string name="textViewNombreSuperCines">SuperCines</string>
 </resources>

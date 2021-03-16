@@ -46,7 +46,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
-        android:id="@+id/textViewNombre"
+        android:id="@+id/textViewNombreCine1"
         android:layout_width="85dp"
         android:layout_height="27dp"
         android:layout_marginTop="244dp"
@@ -65,8 +65,8 @@
         android:layout_marginTop="36dp"
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:text="@string/textViewApellido"
-        app:layout_constraintStart_toStartOf="@+id/textViewNombre"
-        app:layout_constraintTop_toBottomOf="@+id/textViewNombre" />
+        app:layout_constraintStart_toStartOf="@+id/textViewNombreCine1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNombreCine1" />
 
     <TextView
         android:id="@+id/textViewEmail"
@@ -98,7 +98,7 @@
         android:ems="10"
         android:inputType="textShortMessage"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toEndOf="@+id/textViewNombre"
+        app:layout_constraintStart_toEndOf="@+id/textViewNombreCine1"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
