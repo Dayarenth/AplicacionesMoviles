@@ -13,12 +13,12 @@ class MenuPelisActivity : AppCompatActivity() {
 
     fun onClickButtonVerMasAccion(view: View) {
         var intent = Intent(this,ListaPelisActivity::class.java)
-        intent.putExtra("MENSAJE", "Hacia Peliculas")
+        intent.putExtra("MENSAJE", "Ir a Peliculas")
         startActivity(intent)
     }
     fun onClickButtonVerMasAnimado(view: View) {
         var intent = Intent(this,ListaPelisActivity::class.java)
-        intent.putExtra("MENSAJE", "Hacia Lista")
+        intent.putExtra("MENSAJE", "Ir a Lista")
         startActivity(intent)
     }
 }
