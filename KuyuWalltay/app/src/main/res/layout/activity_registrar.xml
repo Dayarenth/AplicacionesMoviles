@@ -25,7 +25,7 @@
         android:layout_height="118dp"
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="70dp"
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -168,4 +168,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextRepContraseña"
         app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="2dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
