@@ -9,17 +9,12 @@
         android:roundIcon="@drawable/ic_palomitas_de_maiz"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListaPelisActivity" android:parentActivityName=".HomeActivity"></activity>
+        <activity android:name=".ListaPelisActivity" android:parentActivityName=".PrincipalActivity"></activity>
         <activity android:name=".HomeActivity" />
         <activity android:name=".CinesActivity" android:parentActivityName=".HomeActivity" />
-        <activity
-            android:name=".ActulizarDatosUssActivity"
-            android:parentActivityName=".HomeActivity" />
-        <activity
-            android:name=".detallePeliculasActivity"
-            android:parentActivityName=".activitylistaPeliculas" />
-        <activity android:name=".PrincipalActivity" />
-        <activity android:name=".activitylistaPeliculas"/>
+        <activity android:name=".ActulizarDatosUssActivity" android:parentActivityName=".HomeActivity" />
+        <activity android:name=".detallePeliculasActivity"/>
+        <activity android:name=".PrincipalActivity" android:parentActivityName=".HomeActivity"/>
         <activity android:name=".activityRegistrar" android:parentActivityName=".LoginActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>

@@ -61,6 +61,7 @@
                 android:background="#FFFFFF"
                 android:gravity="right"
                 android:text="@string/textViewVerMas"
+                android:onClick="onClickButtonVerMasAccion"
                 android:textColor="@color/colorPrimaryDark" />
 
             <LinearLayout
@@ -118,6 +119,7 @@
                 android:background="#FFFFFF"
                 android:gravity="right"
                 android:text="@string/textViewVerMas"
+                android:onClick="onClickButtonVerMasAnimado"
                 android:textColor="@color/colorPrimaryDark" />
 
             <LinearLayout
