@@ -21,19 +21,20 @@ class HomeActivity : AppCompatActivity() {
 
     fun onClickButtonCines(view: View) {
         var intent = Intent(this,CinesActivity::class.java)
-        intent.putExtra("MENSAJE", "Hacia Peliculas")
+        intent.putExtra("MENSAJE", "Hacia Cines")
         startActivity(intent)
     }
 
     fun onClickButtonMapa(view: View) {
        /* var intent = Intent(this,CinesActivity::class.java)
-        intent.putExtra("MENSAJE", "Hacia Peliculas")
+        intent.putExtra("MENSAJE", "Hacia Mapa
+        ")
         startActivity(intent)*/
     }
 
     fun onClickButtonModificarDatos(view: View) {
         var intent = Intent(this,ActulizarDatosUssActivity::class.java)
-        intent.putExtra("MENSAJE", "Hacia Peliculas")
+        intent.putExtra("MENSAJE", "Hacia Modificar Datos")
         startActivity(intent)
     }
 }
