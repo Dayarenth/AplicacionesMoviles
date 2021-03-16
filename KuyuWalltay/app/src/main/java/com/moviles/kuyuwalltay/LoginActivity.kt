@@ -17,6 +17,7 @@ class LoginActivity : AppCompatActivity() {
             intent.putExtra("MENSAJE", "Hacia registrar")
             startActivity(intent)
         }
+
         var bt_ingresar = findViewById<Button>(R.id.btnIngresar)
         bt_ingresar.setOnClickListener {
             var intent = Intent(this,activity_listaPeliculas::class.java)

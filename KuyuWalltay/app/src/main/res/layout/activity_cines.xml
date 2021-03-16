@@ -65,7 +65,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="16dp"
-                    android:text="DESCRIPCIÓN"
+                    android:text="UBICACION"
                     android:textColor="?colorPrimary" />
 
                 <TextView
@@ -132,7 +132,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="16dp"
-                    android:text="DESCRIPCIÓN"
+                    android:text="UBICACION"
                     android:textColor="?colorPrimary" />
 
                 <TextView
@@ -199,7 +199,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="16dp"
-                    android:text="DESCRIPCIÓN"
+                    android:text="UBICACION"
                     android:textColor="?colorPrimary" />
 
                 <TextView

@@ -22,4 +22,8 @@
     <string name="textViewNombreCinemark">Cinemark</string>
     <string name="textViewNombreMulticines">Multicines</string>
     <string name="textViewNombreSuperCines">SuperCines</string>
+    <string name="textViewCabecera">Menú Principal</string>
+    <string name="textViewPeliculas">Lista de Peliculas</string>
+    <string name="textViewCines">Lista de  Cines</string>
+    <string name="textViewMapa">Mapa de Quito</string>
 </resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <Toolbar
+        android:id="@+id/toolbarVerify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:minHeight="?attr/actionBarSize"
+        tools:targetApi="lollipop">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewCabecera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewCabecera"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/Letras" />
+
+
+        </LinearLayout>
+    </Toolbar>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/buttonPaseo"
+            android:layout_width="176dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="88dp"
+            android:background="@drawable/ic_reproductor_de_video"
+            android:onClick="onClickButtonPeliculas"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonBaño"
+            android:layout_width="176dp"
+            android:layout_height="160dp"
+            android:background="@drawable/ic_cine"
+            android:onClick="onClickButtonCines"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonPaseo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.465"
+            app:layout_constraintStart_toEndOf="@+id/buttonPaseo"
+            app:layout_constraintTop_toTopOf="@+id/buttonPaseo"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/buttonHospedaje"
+            android:layout_width="179dp"
+            android:layout_height="182dp"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/ic_mapa"
+            android:onClick="onClickButtonMapa"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toTopOf="@+id/imageButtonPerfilUser"
+            app:layout_constraintEnd_toEndOf="@+id/buttonBaño"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="@+id/buttonPaseo" />
+
+        <TextView
+            android:id="@+id/textViewPeliculas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:text="@string/textViewPeliculas"
+            android:textAlignment="center"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonPaseo"
+            app:layout_constraintEnd_toEndOf="@+id/buttonPaseo"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/buttonPaseo" />
+
+        <TextView
+            android:id="@+id/textViewCines"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:text="@string/textViewCines"
+            android:textAlignment="center"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonBaño"
+            app:layout_constraintEnd_toEndOf="@+id/buttonBaño"
+            app:layout_constraintStart_toStartOf="@+id/buttonBaño" />
+
+        <TextView
+            android:id="@+id/textViewMapa"
+            android:layout_width="169dp"
+            android:layout_height="28dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_horizontal"
+            android:text="@string/textViewMapa"
+            android:textAlignment="center"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonHospedaje"
+            app:layout_constraintEnd_toEndOf="@+id/buttonHospedaje"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/buttonHospedaje" />
+
+        <ImageButton
+            android:id="@+id/imageButtonPerfilUser"
+            android:layout_width="84dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="32dp"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="onClickButtonModificarDatos"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/ic_editar"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
