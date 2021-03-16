@@ -28,4 +28,6 @@
     <string name="textViewCines">Lista de  Cines</string>
     <string name="textViewMapa">Mapa de Quito</string>
     <string name="textViewDescripcion">DESCRIPCION</string>
+    <string name="textViewIdUsuario">IdUsuario</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

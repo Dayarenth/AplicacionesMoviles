@@ -14,7 +14,7 @@ class HomeActivity : AppCompatActivity() {
 
     fun onClickButtonPeliculas(view: View) {
         var intent = Intent(this,PrincipalActivity::class.java)
-        intent.putExtra("MENSAJE", "Hacia Peliculas")
+        intent.putExtra("MENSAJE", "Hacia MenuPeliculas")
         startActivity(intent)
     }
 
@@ -25,9 +25,9 @@ class HomeActivity : AppCompatActivity() {
     }
 
     fun onClickButtonMapa(view: View) {
-        /*var intent = Intent(this,activitylistaPeliculas::class.java)
+        var intent = Intent(this,MapsActivity::class.java)
         intent.putExtra("MENSAJE", "Hacia peliculas")
-        startActivity(intent)*/
+        startActivity(intent)
     }
 
     fun onClickButtonModificarDatos(view: View) {
