@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ActulizarDatosUssActivity"></activity>
+        <activity android:name=".CinesActivity"></activity>
+        <activity android:name=".ActulizarDatosUssActivity" />
         <activity android:name=".detallePeliculasActivity" />
         <activity android:name=".PrincipalActivity" />
         <activity android:name=".activity_listaPeliculas" />
