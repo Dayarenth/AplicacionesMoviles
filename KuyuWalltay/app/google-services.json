@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "447839117370",
+    "firebase_url": "https://kuyu-walltay-default-rtdb.firebaseio.com",
+    "project_id": "kuyu-walltay",
+    "storage_bucket": "kuyu-walltay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447839117370:android:9be5d12bc177a7aae01503",
+        "android_client_info": {
+          "package_name": "com.moviles.kuyuwalltay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447839117370-nqvs6luqfbd4lqi9gb7q10edc0m5bc2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB73MlMj08yAVaSwXHrnxkPTGuX8czrpRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447839117370-nqvs6luqfbd4lqi9gb7q10edc0m5bc2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
