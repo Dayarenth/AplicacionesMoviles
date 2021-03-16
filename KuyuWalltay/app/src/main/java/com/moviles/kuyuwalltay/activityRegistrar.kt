@@ -13,7 +13,7 @@ class activityRegistrar : AppCompatActivity() {
 
         var bt_continuar = findViewById<Button>(R.id.btnActualizarReg)
         bt_continuar.setOnClickListener {
-            var intent = Intent(this, activity_listaPeliculas::class.java)
+            var intent = Intent(this, HomeActivity::class.java)
             intent.putExtra("MENSAJE", "Hacia lista")
             startActivity(intent)
         }

@@ -21,12 +21,9 @@ class LoginActivity : AppCompatActivity() {
         var bt_ingresar = findViewById<Button>(R.id.btnIngresar)
         bt_ingresar.setOnClickListener {
             var intent = Intent(this,HomeActivity::class.java)
-            intent.putExtra("MENSAJE", "Hacia lista")
+            intent.putExtra("MENSAJE", "Hacia MenuPrincipal")
             startActivity(intent)
         }
-
-
-
     }
 }
 

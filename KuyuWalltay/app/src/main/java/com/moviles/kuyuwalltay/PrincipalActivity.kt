@@ -14,10 +14,5 @@ class PrincipalActivity : AppCompatActivity() {
         setContentView(R.layout.activity_principal)
 
         db = FirebaseFirestore.getInstance()
-        consultarPelicula()
-    }
-
-    fun consultarPelicula (){
-
     }
 }

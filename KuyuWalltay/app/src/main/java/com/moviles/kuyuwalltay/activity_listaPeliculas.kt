@@ -27,13 +27,13 @@ class activity_listaPeliculas : AppCompatActivity() {
         peliculas.add(Pelicula("Pound of flesh",R.drawable.img5))
 
 
-        var grid: GridView = findViewById(R.id.grid)
+        /*var grid: GridView = findViewById(R.id.grid)
         // val adaptador = ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,frutas)
         val adaptador=AdaptadorCustom(this,peliculas)
         grid.adapter= adaptador
 
         grid.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
             Toast.makeText(this, peliculas.get(position).nombre, Toast.LENGTH_LONG).show()
-        }
+        }*/
     }
 }
