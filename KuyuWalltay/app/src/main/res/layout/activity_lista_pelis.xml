@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
-    tools:context=".PrincipalActivity">
-
+    tools:context=".ListaPelisActivity">
 
     <ImageView
         android:id="@+id/imagen3"
@@ -65,6 +63,7 @@
                         android:layout_height="260dp"
                         android:background="#FFFFFF"
                         android:scaleType="fitCenter"
+                        android:onClick="onClickButtonListaPelis"
                         app:srcCompat="@drawable/img2" />
 
                     <TextView
@@ -170,7 +169,7 @@
                         app:srcCompat="@drawable/labellaylabestia" />
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/textViewPrecioPelicula"
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
                         android:gravity="center"

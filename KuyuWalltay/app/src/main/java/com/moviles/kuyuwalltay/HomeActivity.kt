@@ -10,11 +10,10 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-
     }
 
     fun onClickButtonPeliculas(view: View) {
-        var intent = Intent(this,activity_listaPeliculas::class.java)
+        var intent = Intent(this,ListaPelisActivity::class.java)
         intent.putExtra("MENSAJE", "Hacia Peliculas")
         startActivity(intent)
     }
@@ -26,9 +25,8 @@ class HomeActivity : AppCompatActivity() {
     }
 
     fun onClickButtonMapa(view: View) {
-       /* var intent = Intent(this,CinesActivity::class.java)
-        intent.putExtra("MENSAJE", "Hacia Mapa
-        ")
+        /*var intent = Intent(this,activitylistaPeliculas::class.java)
+        intent.putExtra("MENSAJE", "Hacia peliculas")
         startActivity(intent)*/
     }
 

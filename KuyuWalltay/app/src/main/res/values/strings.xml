@@ -26,4 +26,5 @@
     <string name="textViewPeliculas">Lista de Peliculas</string>
     <string name="textViewCines">Lista de  Cines</string>
     <string name="textViewMapa">Mapa de Quito</string>
+    <string name="textViewDescripcion">DESCRIPCION</string>
 </resources>

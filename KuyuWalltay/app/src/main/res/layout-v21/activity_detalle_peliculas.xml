@@ -28,7 +28,7 @@
             app:srcCompat="@drawable/img2" />
 
         <TextView
-            android:id="@+id/peliserie_name"
+            android:id="@+id/textViewNombrePelicula"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:gravity="center"
@@ -45,32 +45,32 @@
                 android:id="@+id/anyo_peliculaserie"
                 android:layout_width="140dp"
                 android:layout_height="match_parent"
-                android:drawableLeft="@drawable/ic_baseline_monetization_on_24"
                 android:text="Valor de Entrada"
                 android:gravity="center"
                 android:textColor="?colorPrimary"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_baseline_monetization_on_24" />
 
             <TextView
-                android:id="@+id/textView5"
-                android:layout_width="wrap_content"
+                android:id="@+id/textViewPrecioPelicula"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:gravity="center"
                 android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+                android:gravity="center"
                 android:text="Precio" />
         </LinearLayout>
 
         <TextView
-            android:id="@+id/tag_description"
+            android:id="@+id/textViewDescripcion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="16dp"
-            android:text="DESCRIPCIÓN"
+            android:text="@string/textViewDescripcion"
             android:textColor="?colorPrimary" />
 
         <TextView
-            android:id="@+id/detail_description"
+            android:id="@+id/textViewDescripcionPelicula"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat ornare nulla a ultrices. Nam accumsan gravida dui ut ornare. Aliquam ultricies dapibus lacus. Suspendisse in justo sed diam suscipit pellentesque tristique non metus. Fusce sit amet dignissim lorem. Etiam vel quam nec nisl viverra placerat. Nam quam est, iaculis." />
@@ -85,7 +85,8 @@
             android:paddingTop="8dp"
             android:progressTint="#FDDB39"
             android:rating="3"
-            android:secondaryProgressTint="#FDDB39" />
+            android:secondaryProgressTint="#FDDB39"
+            android:focusable="true" />
     </LinearLayout>
 
     <ImageButton
@@ -93,6 +94,8 @@
         android:layout_width="81dp"
         android:layout_height="58dp"
         android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        android:onClick="onClickButtonHome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
         app:layout_constraintStart_toStartOf="@+id/linearLayout"
